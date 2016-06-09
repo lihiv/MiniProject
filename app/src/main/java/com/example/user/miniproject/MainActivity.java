@@ -12,6 +12,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     protected int testUpload(int i){
-        return i;
+        return i+i;
     }
 }
