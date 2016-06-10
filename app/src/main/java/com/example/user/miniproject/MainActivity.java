@@ -14,9 +14,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-
-    public void startGame() {
-        Intent intent = new Intent(this, testClass.class);
+    /** Called when the user selects the Send button */
+    public void startGame(View view) {
+        // Create an Intent to start the second activity
+        Intent intent = new Intent(this, Levels.class);
+        // Start the intended activity
         startActivity(intent);
     }
 }
