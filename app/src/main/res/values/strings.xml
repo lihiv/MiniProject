@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MiniProject</string>
+    <string name="btnStartLabel">"Start!</string>
+    <string name="mainViewLabel">Welcome to th riddles game!</string>
 </resources>

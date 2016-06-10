@@ -1,7 +1,10 @@
 package com.example.user.miniproject;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -11,7 +14,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    protected int testUpload(int i){
-        return i+i;
+    public void startGame() {
+        Intent intent = new Intent(this, testClass.class);
+        startActivity(intent);
     }
 }
